@@ -1,0 +1,543 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<viewpoint:DAnalysis xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:basicfamily="http://www.example.org/basicfamily" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/style/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/style" xmi:id="_FmR98GjIEeS1hIQTE469VA" selectedViews="_iQkGMGjKEeS1hIQTE469VA" version="8.1.1">
+  <models xmi:type="basicfamily:Family" href="example.basicfamily#/"/>
+  <ownedViews xmi:type="viewpoint:DRepresentationContainer" xmi:id="_iQkGMGjKEeS1hIQTE469VA" initialized="true">
+    <ownedRepresentations xmi:type="diagram:DSemanticDiagram" xmi:id="_jLuKEGjOEeS1hIQTE469VA" name="new Persons diagram">
+      <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_jLuxQWjOEeS1hIQTE469VA" source="GMF_DIAGRAMS">
+        <data xmi:type="notation:Diagram" xmi:id="_jLuxQmjOEeS1hIQTE469VA" type="Sirius" element="_jLuKEGjOEeS1hIQTE469VA" measurementUnit="Pixel">
+          <children xmi:type="notation:Node" xmi:id="_jLvYMGjOEeS1hIQTE469VA" type="2001" element="_jLuKEWjOEeS1hIQTE469VA">
+            <children xmi:type="notation:Node" xmi:id="_jLv_QGjOEeS1hIQTE469VA" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_jLv_QWjOEeS1hIQTE469VA" y="-21"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_jMEvYGjOEeS1hIQTE469VA" type="3005" element="_jLuKEmjOEeS1hIQTE469VA">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_jMEvYWjOEeS1hIQTE469VA" fontName="Ubuntu"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jMEvYmjOEeS1hIQTE469VA"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_jLvYMWjOEeS1hIQTE469VA" fontName="Ubuntu" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jLvYMmjOEeS1hIQTE469VA" x="313" width="64" height="64"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_jL5wQGjOEeS1hIQTE469VA" type="2001" element="_jLuKFWjOEeS1hIQTE469VA">
+            <children xmi:type="notation:Node" xmi:id="_jL5wQ2jOEeS1hIQTE469VA" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_jL5wRGjOEeS1hIQTE469VA" x="41" y="-14"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_jMF9gGjOEeS1hIQTE469VA" type="3005" element="_jLuKFmjOEeS1hIQTE469VA">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_jMF9gWjOEeS1hIQTE469VA" fontName="Ubuntu"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jMF9gmjOEeS1hIQTE469VA"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_jL5wQWjOEeS1hIQTE469VA" fontName="Ubuntu" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jL5wQmjOEeS1hIQTE469VA" x="433" y="125" width="64" height="64"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_jL6XUGjOEeS1hIQTE469VA" type="2001" element="_jLuKGWjOEeS1hIQTE469VA">
+            <children xmi:type="notation:Node" xmi:id="_jL6XU2jOEeS1hIQTE469VA" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_jL6XVGjOEeS1hIQTE469VA" y="-21"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_jMF9g2jOEeS1hIQTE469VA" type="3005" element="_jLuKGmjOEeS1hIQTE469VA">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_jMF9hGjOEeS1hIQTE469VA" fontName="Ubuntu"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jMF9hWjOEeS1hIQTE469VA"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_jL6XUWjOEeS1hIQTE469VA" fontName="Ubuntu" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jL6XUmjOEeS1hIQTE469VA" x="250" y="250" width="64" height="64"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_jL6-YGjOEeS1hIQTE469VA" type="2001" element="_jLuxIGjOEeS1hIQTE469VA">
+            <children xmi:type="notation:Node" xmi:id="_jL6-Y2jOEeS1hIQTE469VA" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_jL6-ZGjOEeS1hIQTE469VA" y="-14"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_jMGkkGjOEeS1hIQTE469VA" type="3005" element="_jLuxIWjOEeS1hIQTE469VA">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_jMGkkWjOEeS1hIQTE469VA" fontName="Ubuntu"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jMGkkmjOEeS1hIQTE469VA"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_jL6-YWjOEeS1hIQTE469VA" fontName="Ubuntu" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jL6-YmjOEeS1hIQTE469VA" x="188" y="370" width="64" height="64"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_jL6-ZWjOEeS1hIQTE469VA" type="2001" element="_jLuxJGjOEeS1hIQTE469VA">
+            <children xmi:type="notation:Node" xmi:id="_jL7lcGjOEeS1hIQTE469VA" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_jL7lcWjOEeS1hIQTE469VA" x="36" y="-14"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_jMGkk2jOEeS1hIQTE469VA" type="3005" element="_jLuxJWjOEeS1hIQTE469VA">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_jMGklGjOEeS1hIQTE469VA" fontName="Ubuntu"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jMGklWjOEeS1hIQTE469VA"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_jL6-ZmjOEeS1hIQTE469VA" fontName="Ubuntu" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jL6-Z2jOEeS1hIQTE469VA" x="495" y="250" width="64" height="64"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_jL-BsGjOEeS1hIQTE469VA" type="2001" element="_jLuxKGjOEeS1hIQTE469VA">
+            <children xmi:type="notation:Node" xmi:id="_jL-owGjOEeS1hIQTE469VA" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_jL-owWjOEeS1hIQTE469VA" y="-21"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_jMGklmjOEeS1hIQTE469VA" type="3005" element="_jLuxKWjOEeS1hIQTE469VA">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_jMGkl2jOEeS1hIQTE469VA" fontName="Ubuntu"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jMGkmGjOEeS1hIQTE469VA"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_jL-BsWjOEeS1hIQTE469VA" fontName="Ubuntu" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jL-BsmjOEeS1hIQTE469VA" width="64" height="64"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_jL-owmjOEeS1hIQTE469VA" type="2001" element="_jLuxLGjOEeS1hIQTE469VA">
+            <children xmi:type="notation:Node" xmi:id="_jL-oxWjOEeS1hIQTE469VA" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_jL-oxmjOEeS1hIQTE469VA" y="-21"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_jMHLoGjOEeS1hIQTE469VA" type="3005" element="_jLuxLWjOEeS1hIQTE469VA">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_jMHLoWjOEeS1hIQTE469VA" fontName="Ubuntu"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jMHLomjOEeS1hIQTE469VA"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_jL-ow2jOEeS1hIQTE469VA" fontName="Ubuntu" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jL-oxGjOEeS1hIQTE469VA" x="433" width="64" height="64"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_jMBFAGjOEeS1hIQTE469VA" type="2001" element="_jLuxMGjOEeS1hIQTE469VA">
+            <children xmi:type="notation:Node" xmi:id="_jMBsEGjOEeS1hIQTE469VA" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_jMBsEWjOEeS1hIQTE469VA" y="-21"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_jMHLo2jOEeS1hIQTE469VA" type="3005" element="_jLuxMWjOEeS1hIQTE469VA">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_jMHLpGjOEeS1hIQTE469VA" fontName="Ubuntu"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jMHLpWjOEeS1hIQTE469VA"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_jMBFAWjOEeS1hIQTE469VA" fontName="Ubuntu" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jMBFAmjOEeS1hIQTE469VA" x="313" y="125" width="64" height="64"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_jMBsEmjOEeS1hIQTE469VA" type="2001" element="_jLuxNGjOEeS1hIQTE469VA">
+            <children xmi:type="notation:Node" xmi:id="_jMCTIGjOEeS1hIQTE469VA" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_jMCTIWjOEeS1hIQTE469VA" x="37" y="-14"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_jMHLpmjOEeS1hIQTE469VA" type="3005" element="_jLuxNWjOEeS1hIQTE469VA">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_jMHLp2jOEeS1hIQTE469VA" fontName="Ubuntu"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jMHLqGjOEeS1hIQTE469VA"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_jMBsE2jOEeS1hIQTE469VA" fontName="Ubuntu" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jMBsFGjOEeS1hIQTE469VA" x="620" y="250" width="64" height="64"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_jMCTImjOEeS1hIQTE469VA" type="2001" element="_jLuxOGjOEeS1hIQTE469VA">
+            <children xmi:type="notation:Node" xmi:id="_jMC6MGjOEeS1hIQTE469VA" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_jMC6MWjOEeS1hIQTE469VA" y="-21"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_jMHLqWjOEeS1hIQTE469VA" type="3005" element="_jLuxOWjOEeS1hIQTE469VA">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_jMHLqmjOEeS1hIQTE469VA" fontName="Ubuntu"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jMHLq2jOEeS1hIQTE469VA"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_jMCTI2jOEeS1hIQTE469VA" fontName="Ubuntu" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jMCTJGjOEeS1hIQTE469VA" x="95" y="250" width="64" height="64"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_jMC6MmjOEeS1hIQTE469VA" type="2001" element="_jLuxPGjOEeS1hIQTE469VA">
+            <children xmi:type="notation:Node" xmi:id="_jMC6NWjOEeS1hIQTE469VA" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_jMDhQGjOEeS1hIQTE469VA" y="-21"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_jMHysGjOEeS1hIQTE469VA" type="3005" element="_jLuxPWjOEeS1hIQTE469VA">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_jMHysWjOEeS1hIQTE469VA" fontName="Ubuntu"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jMHysmjOEeS1hIQTE469VA"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_jMC6M2jOEeS1hIQTE469VA" fontName="Ubuntu" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jMC6NGjOEeS1hIQTE469VA" x="370" y="250" width="64" height="64"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_TsGvgGjQEeS1hIQTE469VA" type="2001" element="_TrxYUGjQEeS1hIQTE469VA">
+            <children xmi:type="notation:Node" xmi:id="_TsGvg2jQEeS1hIQTE469VA" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_TsGvhGjQEeS1hIQTE469VA" y="-21"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_TsIksGjQEeS1hIQTE469VA" type="3005" element="_TrymcGjQEeS1hIQTE469VA">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_TsIksWjQEeS1hIQTE469VA" fontName="Ubuntu"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TsIksmjQEeS1hIQTE469VA"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_TsGvgWjQEeS1hIQTE469VA" fontName="Ubuntu" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TsGvgmjQEeS1hIQTE469VA" x="70" width="64" height="64"/>
+          </children>
+          <styles xmi:type="notation:DiagramStyle" xmi:id="_jLuxQ2jOEeS1hIQTE469VA"/>
+          <edges xmi:type="notation:Edge" xmi:id="_-_o88GjOEeS1hIQTE469VA" type="4001" element="_--zPcGjOEeS1hIQTE469VA" source="_jL5wQGjOEeS1hIQTE469VA" target="_jLvYMGjOEeS1hIQTE469VA">
+            <children xmi:type="notation:Node" xmi:id="_-_rZMGjOEeS1hIQTE469VA" type="6001">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-_rZMWjOEeS1hIQTE469VA" y="-10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_-_sAQGjOEeS1hIQTE469VA" type="6002">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-_sAQWjOEeS1hIQTE469VA" y="10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_-_snUGjOEeS1hIQTE469VA" type="6003">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-_snUWjOEeS1hIQTE469VA" y="10"/>
+            </children>
+            <styles xmi:type="notation:ConnectorStyle" xmi:id="_-_pkAGjOEeS1hIQTE469VA"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_-_pkAWjOEeS1hIQTE469VA" fontName="Ubuntu" fontHeight="8"/>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_-_pkAmjOEeS1hIQTE469VA" points="[0, 0, 120, 61]$[-120, -61, 0, 0]"/>
+            <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_-_3mcGjOEeS1hIQTE469VA" id="(0.5,0.0)"/>
+            <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_-_3mcWjOEeS1hIQTE469VA" id="(0.5,1.0)"/>
+          </edges>
+          <edges xmi:type="notation:Edge" xmi:id="_-_4NgGjOEeS1hIQTE469VA" type="4001" element="_-_BR4GjOEeS1hIQTE469VA" source="_jL6XUGjOEeS1hIQTE469VA" target="_jL5wQGjOEeS1hIQTE469VA">
+            <children xmi:type="notation:Node" xmi:id="_-_40kGjOEeS1hIQTE469VA" type="6001">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-_40kWjOEeS1hIQTE469VA" y="-10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_-_40kmjOEeS1hIQTE469VA" type="6002">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-_40k2jOEeS1hIQTE469VA" y="10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_-_40lGjOEeS1hIQTE469VA" type="6003">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-_40lWjOEeS1hIQTE469VA" y="10"/>
+            </children>
+            <styles xmi:type="notation:ConnectorStyle" xmi:id="_-_4NgWjOEeS1hIQTE469VA"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_-_4NgmjOEeS1hIQTE469VA" fontName="Ubuntu" fontHeight="8"/>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_-_4Ng2jOEeS1hIQTE469VA" points="[0, 0, -186, 60]$[186, -60, 0, 0]"/>
+            <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_-_5boGjOEeS1hIQTE469VA" id="(0.5,0.0)"/>
+            <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_-_5boWjOEeS1hIQTE469VA" id="(0.5,1.0)"/>
+          </edges>
+          <edges xmi:type="notation:Edge" xmi:id="_-_5bomjOEeS1hIQTE469VA" type="4001" element="_-_E8QGjOEeS1hIQTE469VA" source="_jL6-YGjOEeS1hIQTE469VA" target="_jL6XUGjOEeS1hIQTE469VA">
+            <children xmi:type="notation:Node" xmi:id="_-_6CsGjOEeS1hIQTE469VA" type="6001">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-_6CsWjOEeS1hIQTE469VA" y="-10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_-_6CsmjOEeS1hIQTE469VA" type="6002">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-_6Cs2jOEeS1hIQTE469VA" y="10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_-_6CtGjOEeS1hIQTE469VA" type="6003">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-_6CtWjOEeS1hIQTE469VA" y="10"/>
+            </children>
+            <styles xmi:type="notation:ConnectorStyle" xmi:id="_-_5bo2jOEeS1hIQTE469VA"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_-_5bpGjOEeS1hIQTE469VA" fontName="Ubuntu" fontHeight="8"/>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_-_5bpWjOEeS1hIQTE469VA" points="[0, 0, -62, 60]$[62, -60, 0, 0]"/>
+            <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_-_6CtmjOEeS1hIQTE469VA" id="(0.5,0.0)"/>
+            <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_-_6Ct2jOEeS1hIQTE469VA" id="(0.5,1.0)"/>
+          </edges>
+          <edges xmi:type="notation:Edge" xmi:id="_-_6CuGjOEeS1hIQTE469VA" type="4001" element="_-_FjUGjOEeS1hIQTE469VA" source="_jL6-ZWjOEeS1hIQTE469VA" target="_jL5wQGjOEeS1hIQTE469VA">
+            <children xmi:type="notation:Node" xmi:id="_-_6pwGjOEeS1hIQTE469VA" type="6001">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-_6pwWjOEeS1hIQTE469VA" y="-10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_-_6pwmjOEeS1hIQTE469VA" type="6002">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-_6pw2jOEeS1hIQTE469VA" y="10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_-_6pxGjOEeS1hIQTE469VA" type="6003">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-_6pxWjOEeS1hIQTE469VA" y="10"/>
+            </children>
+            <styles xmi:type="notation:ConnectorStyle" xmi:id="_-_6CuWjOEeS1hIQTE469VA"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_-_6CumjOEeS1hIQTE469VA" fontName="Ubuntu" fontHeight="8"/>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_-_6Cu2jOEeS1hIQTE469VA" points="[0, 0, 62, 60]$[-62, -60, 0, 0]"/>
+            <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_-_6pxmjOEeS1hIQTE469VA" id="(0.5,0.0)"/>
+            <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_-_6px2jOEeS1hIQTE469VA" id="(0.5,1.0)"/>
+          </edges>
+          <edges xmi:type="notation:Edge" xmi:id="_-_7Q0GjOEeS1hIQTE469VA" type="4001" element="_-_GKYGjOEeS1hIQTE469VA" source="_jMBFAGjOEeS1hIQTE469VA" target="_jLvYMGjOEeS1hIQTE469VA">
+            <children xmi:type="notation:Node" xmi:id="_-_7Q1GjOEeS1hIQTE469VA" type="6001">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-_7Q1WjOEeS1hIQTE469VA" y="-10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_-_7Q1mjOEeS1hIQTE469VA" type="6002">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-_7Q12jOEeS1hIQTE469VA" y="10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_-_7Q2GjOEeS1hIQTE469VA" type="6003">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-_7Q2WjOEeS1hIQTE469VA" y="10"/>
+            </children>
+            <styles xmi:type="notation:ConnectorStyle" xmi:id="_-_7Q0WjOEeS1hIQTE469VA"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_-_7Q0mjOEeS1hIQTE469VA" fontName="Ubuntu" fontHeight="8"/>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_-_7Q02jOEeS1hIQTE469VA" points="[0, 0, 0, 60]$[0, -60, 0, 0]"/>
+            <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_-_734GjOEeS1hIQTE469VA" id="(0.5,0.0)"/>
+            <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_-_734WjOEeS1hIQTE469VA" id="(0.5,1.0)"/>
+          </edges>
+          <edges xmi:type="notation:Edge" xmi:id="_-_734mjOEeS1hIQTE469VA" type="4001" element="_-_J0wGjOEeS1hIQTE469VA" source="_jMBsEmjOEeS1hIQTE469VA" target="_jL5wQGjOEeS1hIQTE469VA">
+            <children xmi:type="notation:Node" xmi:id="_-_735mjOEeS1hIQTE469VA" type="6001">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-_7352jOEeS1hIQTE469VA" y="-10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_-_736GjOEeS1hIQTE469VA" type="6002">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-_736WjOEeS1hIQTE469VA" y="10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_-_736mjOEeS1hIQTE469VA" type="6003">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-_7362jOEeS1hIQTE469VA" y="10"/>
+            </children>
+            <styles xmi:type="notation:ConnectorStyle" xmi:id="_-_7342jOEeS1hIQTE469VA"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_-_735GjOEeS1hIQTE469VA" fontName="Ubuntu" fontHeight="8"/>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_-_735WjOEeS1hIQTE469VA" points="[0, 0, 186, 60]$[-186, -60, 0, 0]"/>
+            <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_-_8e8GjOEeS1hIQTE469VA" id="(0.5,0.0)"/>
+            <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_-_8e8WjOEeS1hIQTE469VA" id="(0.5,1.0)"/>
+          </edges>
+          <edges xmi:type="notation:Edge" xmi:id="_-_8e8mjOEeS1hIQTE469VA" type="4001" element="_-_Kb0GjOEeS1hIQTE469VA" source="_jMC6MmjOEeS1hIQTE469VA" target="_jL5wQGjOEeS1hIQTE469VA">
+            <children xmi:type="notation:Node" xmi:id="_-_8e9mjOEeS1hIQTE469VA" type="6001">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-_8e92jOEeS1hIQTE469VA" y="-10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_-_9GAGjOEeS1hIQTE469VA" type="6002">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-_9GAWjOEeS1hIQTE469VA" y="10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_-_9GAmjOEeS1hIQTE469VA" type="6003">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-_9GA2jOEeS1hIQTE469VA" y="10"/>
+            </children>
+            <styles xmi:type="notation:ConnectorStyle" xmi:id="_-_8e82jOEeS1hIQTE469VA"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_-_8e9GjOEeS1hIQTE469VA" fontName="Ubuntu" fontHeight="8"/>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_-_8e9WjOEeS1hIQTE469VA" points="[0, 0, -62, 60]$[62, -60, 0, 0]"/>
+            <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_-_9GBGjOEeS1hIQTE469VA" id="(0.5,0.0)"/>
+            <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_-_9GBWjOEeS1hIQTE469VA" id="(0.5,1.0)"/>
+          </edges>
+          <edges xmi:type="notation:Edge" xmi:id="_heQGMGjPEeS1hIQTE469VA" type="4001" element="_heL0wGjPEeS1hIQTE469VA" source="_jL5wQGjOEeS1hIQTE469VA" target="_jL-owmjOEeS1hIQTE469VA">
+            <children xmi:type="notation:Node" xmi:id="_heQGNGjPEeS1hIQTE469VA" type="6001">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_heQGNWjPEeS1hIQTE469VA" y="-10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_heQtQGjPEeS1hIQTE469VA" type="6002">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_heQtQWjPEeS1hIQTE469VA" y="10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_heQtQmjPEeS1hIQTE469VA" type="6003">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_heQtQ2jPEeS1hIQTE469VA" y="10"/>
+            </children>
+            <styles xmi:type="notation:ConnectorStyle" xmi:id="_heQGMWjPEeS1hIQTE469VA"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_heQGMmjPEeS1hIQTE469VA" fontName="Ubuntu" fontHeight="8"/>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_heQGM2jPEeS1hIQTE469VA" points="[0, 0, 0, 60]$[0, -60, 0, 0]"/>
+            <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_heQtRGjPEeS1hIQTE469VA" id="(0.5,0.0)"/>
+            <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_heQtRWjPEeS1hIQTE469VA" id="(0.5,1.0)"/>
+          </edges>
+          <edges xmi:type="notation:Edge" xmi:id="_heRUUGjPEeS1hIQTE469VA" type="4001" element="_heMb0GjPEeS1hIQTE469VA" source="_jL6-YGjOEeS1hIQTE469VA" target="_jMCTImjOEeS1hIQTE469VA">
+            <children xmi:type="notation:Node" xmi:id="_heRUVGjPEeS1hIQTE469VA" type="6001">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_heRUVWjPEeS1hIQTE469VA" y="-10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_heRUVmjPEeS1hIQTE469VA" type="6002">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_heRUV2jPEeS1hIQTE469VA" y="10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_heR7YGjPEeS1hIQTE469VA" type="6003">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_heR7YWjPEeS1hIQTE469VA" y="10"/>
+            </children>
+            <styles xmi:type="notation:ConnectorStyle" xmi:id="_heRUUWjPEeS1hIQTE469VA"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_heRUUmjPEeS1hIQTE469VA" fontName="Ubuntu" fontHeight="8"/>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_heRUU2jPEeS1hIQTE469VA" points="[0, 0, 62, 60]$[-62, -60, 0, 0]"/>
+            <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_heR7YmjPEeS1hIQTE469VA" id="(0.5,0.0)"/>
+            <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_heR7Y2jPEeS1hIQTE469VA" id="(0.5,1.0)"/>
+          </edges>
+          <edges xmi:type="notation:Edge" xmi:id="_heR7ZGjPEeS1hIQTE469VA" type="4001" element="_heNC4GjPEeS1hIQTE469VA" source="_jMBFAGjOEeS1hIQTE469VA" target="_jL-owmjOEeS1hIQTE469VA">
+            <children xmi:type="notation:Node" xmi:id="_heSicGjPEeS1hIQTE469VA" type="6001">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_heSicWjPEeS1hIQTE469VA" y="-10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_heSicmjPEeS1hIQTE469VA" type="6002">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_heSic2jPEeS1hIQTE469VA" y="10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_heSidGjPEeS1hIQTE469VA" type="6003">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_heSidWjPEeS1hIQTE469VA" y="10"/>
+            </children>
+            <styles xmi:type="notation:ConnectorStyle" xmi:id="_heR7ZWjPEeS1hIQTE469VA"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_heR7ZmjPEeS1hIQTE469VA" fontName="Ubuntu" fontHeight="8"/>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_heR7Z2jPEeS1hIQTE469VA" points="[0, 0, -124, 60]$[124, -60, 0, 0]"/>
+            <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_heSidmjPEeS1hIQTE469VA" id="(0.5,0.0)"/>
+            <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_heSid2jPEeS1hIQTE469VA" id="(0.5,1.0)"/>
+          </edges>
+        </data>
+      </ownedAnnotationEntries>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_jLuKEWjOEeS1hIQTE469VA" name="Paul" incomingEdges="_--zPcGjOEeS1hIQTE469VA _-_GKYGjOEeS1hIQTE469VA" width="-1" height="-1" resizeKind="NSEW">
+        <target xmi:type="basicfamily:Man" href="example.basicfamily#//@members.0"/>
+        <semanticElements xmi:type="basicfamily:Man" href="example.basicfamily#//@members.0"/>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_jLuKEmjOEeS1hIQTE469VA" showIcon="false" workspacePath="/basicfamily.design/icons/man32.png">
+          <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_jLuKE2jOEeS1hIQTE469VA"/>
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/basicfamily.design/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@nodeMappings[name='ManNode']/@style"/>
+          <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_jLuKFGjOEeS1hIQTE469VA"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/basicfamily.design/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@nodeMappings[name='ManNode']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_jLuKFWjOEeS1hIQTE469VA" name="Elias" outgoingEdges="_--zPcGjOEeS1hIQTE469VA _heL0wGjPEeS1hIQTE469VA" incomingEdges="_-_BR4GjOEeS1hIQTE469VA _-_FjUGjOEeS1hIQTE469VA _-_J0wGjOEeS1hIQTE469VA _-_Kb0GjOEeS1hIQTE469VA" width="-1" height="-1" resizeKind="NSEW">
+        <target xmi:type="basicfamily:Man" href="example.basicfamily#//@members.2"/>
+        <semanticElements xmi:type="basicfamily:Man" href="example.basicfamily#//@members.2"/>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_jLuKFmjOEeS1hIQTE469VA" showIcon="false" workspacePath="/basicfamily.design/icons/man32.png">
+          <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_jLuKF2jOEeS1hIQTE469VA"/>
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/basicfamily.design/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@nodeMappings[name='ManNode']/@style"/>
+          <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_jLuKGGjOEeS1hIQTE469VA"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/basicfamily.design/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@nodeMappings[name='ManNode']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_jLuKGWjOEeS1hIQTE469VA" name="Dave" outgoingEdges="_-_BR4GjOEeS1hIQTE469VA" incomingEdges="_-_E8QGjOEeS1hIQTE469VA" width="-1" height="-1" resizeKind="NSEW">
+        <target xmi:type="basicfamily:Man" href="example.basicfamily#//@members.4"/>
+        <semanticElements xmi:type="basicfamily:Man" href="example.basicfamily#//@members.4"/>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_jLuKGmjOEeS1hIQTE469VA" showIcon="false" workspacePath="/basicfamily.design/icons/man32.png">
+          <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_jLuKG2jOEeS1hIQTE469VA"/>
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/basicfamily.design/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@nodeMappings[name='ManNode']/@style"/>
+          <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_jLuKHGjOEeS1hIQTE469VA"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/basicfamily.design/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@nodeMappings[name='ManNode']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_jLuxIGjOEeS1hIQTE469VA" name="Alain" outgoingEdges="_-_E8QGjOEeS1hIQTE469VA _heMb0GjPEeS1hIQTE469VA" width="-1" height="-1" resizeKind="NSEW">
+        <target xmi:type="basicfamily:Man" href="example.basicfamily#//@members.5"/>
+        <semanticElements xmi:type="basicfamily:Man" href="example.basicfamily#//@members.5"/>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_jLuxIWjOEeS1hIQTE469VA" showIcon="false" workspacePath="/basicfamily.design/icons/man32.png">
+          <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_jLuxImjOEeS1hIQTE469VA"/>
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/basicfamily.design/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@nodeMappings[name='ManNode']/@style"/>
+          <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_jLuxI2jOEeS1hIQTE469VA"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/basicfamily.design/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@nodeMappings[name='ManNode']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_jLuxJGjOEeS1hIQTE469VA" name="Bryan" outgoingEdges="_-_FjUGjOEeS1hIQTE469VA" width="-1" height="-1" resizeKind="NSEW">
+        <target xmi:type="basicfamily:Man" href="example.basicfamily#//@members.6"/>
+        <semanticElements xmi:type="basicfamily:Man" href="example.basicfamily#//@members.6"/>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_jLuxJWjOEeS1hIQTE469VA" showIcon="false" workspacePath="/basicfamily.design/icons/man32.png">
+          <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_jLuxJmjOEeS1hIQTE469VA"/>
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/basicfamily.design/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@nodeMappings[name='ManNode']/@style"/>
+          <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_jLuxJ2jOEeS1hIQTE469VA"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/basicfamily.design/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@nodeMappings[name='ManNode']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_jLuxKGjOEeS1hIQTE469VA" name="Albert" width="-1" height="-1" resizeKind="NSEW">
+        <target xmi:type="basicfamily:Man" href="example.basicfamily#//@members.10"/>
+        <semanticElements xmi:type="basicfamily:Man" href="example.basicfamily#//@members.10"/>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_jLuxKWjOEeS1hIQTE469VA" showIcon="false" workspacePath="/basicfamily.design/icons/man32.png">
+          <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_jLuxKmjOEeS1hIQTE469VA"/>
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/basicfamily.design/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@nodeMappings[name='ManNode']/@style"/>
+          <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_jLuxK2jOEeS1hIQTE469VA"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/basicfamily.design/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@nodeMappings[name='ManNode']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_TrxYUGjQEeS1hIQTE469VA" name="Jean-Claude" width="-1" height="-1" resizeKind="NSEW">
+        <target xmi:type="basicfamily:Man" href="example.basicfamily#//@members.11"/>
+        <semanticElements xmi:type="basicfamily:Man" href="example.basicfamily#//@members.11"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_TrymcGjQEeS1hIQTE469VA" showIcon="false" workspacePath="/basicfamily.design/icons/man32.png">
+          <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_TrymcWjQEeS1hIQTE469VA"/>
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/basicfamily.design/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@nodeMappings[name='ManNode']/@style"/>
+          <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_TrymcmjQEeS1hIQTE469VA"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/basicfamily.design/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@nodeMappings[name='ManNode']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_jLuxLGjOEeS1hIQTE469VA" name="Isa" incomingEdges="_heL0wGjPEeS1hIQTE469VA _heNC4GjPEeS1hIQTE469VA" width="-1" height="-1" resizeKind="NSEW">
+        <target xmi:type="basicfamily:Woman" href="example.basicfamily#//@members.1"/>
+        <semanticElements xmi:type="basicfamily:Woman" href="example.basicfamily#//@members.1"/>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_jLuxLWjOEeS1hIQTE469VA" showIcon="false" workspacePath="/basicfamily.design/icons/woman32.png">
+          <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_jLuxLmjOEeS1hIQTE469VA"/>
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/basicfamily.design/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@nodeMappings[name='WomanNode']/@style"/>
+          <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_jLuxL2jOEeS1hIQTE469VA"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/basicfamily.design/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@nodeMappings[name='WomanNode']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_jLuxMGjOEeS1hIQTE469VA" name="Léa" outgoingEdges="_-_GKYGjOEeS1hIQTE469VA _heNC4GjPEeS1hIQTE469VA" width="-1" height="-1" resizeKind="NSEW">
+        <target xmi:type="basicfamily:Woman" href="example.basicfamily#//@members.3"/>
+        <semanticElements xmi:type="basicfamily:Woman" href="example.basicfamily#//@members.3"/>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_jLuxMWjOEeS1hIQTE469VA" showIcon="false" workspacePath="/basicfamily.design/icons/woman32.png">
+          <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_jLuxMmjOEeS1hIQTE469VA"/>
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/basicfamily.design/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@nodeMappings[name='WomanNode']/@style"/>
+          <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_jLuxM2jOEeS1hIQTE469VA"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/basicfamily.design/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@nodeMappings[name='WomanNode']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_jLuxNGjOEeS1hIQTE469VA" name="Fiona" outgoingEdges="_-_J0wGjOEeS1hIQTE469VA" width="-1" height="-1" resizeKind="NSEW">
+        <target xmi:type="basicfamily:Woman" href="example.basicfamily#//@members.7"/>
+        <semanticElements xmi:type="basicfamily:Woman" href="example.basicfamily#//@members.7"/>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_jLuxNWjOEeS1hIQTE469VA" showIcon="false" workspacePath="/basicfamily.design/icons/woman32.png">
+          <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_jLuxNmjOEeS1hIQTE469VA"/>
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/basicfamily.design/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@nodeMappings[name='WomanNode']/@style"/>
+          <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_jLuxN2jOEeS1hIQTE469VA"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/basicfamily.design/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@nodeMappings[name='WomanNode']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_jLuxOGjOEeS1hIQTE469VA" name="Katell" incomingEdges="_heMb0GjPEeS1hIQTE469VA" width="-1" height="-1" resizeKind="NSEW">
+        <target xmi:type="basicfamily:Woman" href="example.basicfamily#//@members.8"/>
+        <semanticElements xmi:type="basicfamily:Woman" href="example.basicfamily#//@members.8"/>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_jLuxOWjOEeS1hIQTE469VA" showIcon="false" workspacePath="/basicfamily.design/icons/woman32.png">
+          <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_jLuxOmjOEeS1hIQTE469VA"/>
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/basicfamily.design/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@nodeMappings[name='WomanNode']/@style"/>
+          <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_jLuxO2jOEeS1hIQTE469VA"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/basicfamily.design/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@nodeMappings[name='WomanNode']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_jLuxPGjOEeS1hIQTE469VA" name="Clara" outgoingEdges="_-_Kb0GjOEeS1hIQTE469VA" width="-1" height="-1" resizeKind="NSEW">
+        <target xmi:type="basicfamily:Woman" href="example.basicfamily#//@members.9"/>
+        <semanticElements xmi:type="basicfamily:Woman" href="example.basicfamily#//@members.9"/>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_jLuxPWjOEeS1hIQTE469VA" showIcon="false" workspacePath="/basicfamily.design/icons/woman32.png">
+          <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_jLuxPmjOEeS1hIQTE469VA"/>
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/basicfamily.design/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@nodeMappings[name='WomanNode']/@style"/>
+          <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_jLuxP2jOEeS1hIQTE469VA"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/basicfamily.design/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@nodeMappings[name='WomanNode']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_--zPcGjOEeS1hIQTE469VA" sourceNode="_jLuKFWjOEeS1hIQTE469VA" targetNode="_jLuKEWjOEeS1hIQTE469VA">
+        <target xmi:type="basicfamily:Man" href="example.basicfamily#//@members.2"/>
+        <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_---1oGjOEeS1hIQTE469VA" size="2">
+          <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/basicfamily.design/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@edgeMappings[name='fatherEdge']/@style"/>
+          <strokeColor xmi:type="viewpoint:RGBValues" xmi:id="_U0Qf0GjPEeS1hIQTE469VA" red="39" green="76" blue="114"/>
+          <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_---1omjOEeS1hIQTE469VA">
+            <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_---1o2jOEeS1hIQTE469VA"/>
+          </centerLabelStyle>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/basicfamily.design/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@edgeMappings[name='fatherEdge']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_-_BR4GjOEeS1hIQTE469VA" sourceNode="_jLuKGWjOEeS1hIQTE469VA" targetNode="_jLuKFWjOEeS1hIQTE469VA">
+        <target xmi:type="basicfamily:Man" href="example.basicfamily#//@members.4"/>
+        <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_-_EVMGjOEeS1hIQTE469VA" size="2">
+          <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/basicfamily.design/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@edgeMappings[name='fatherEdge']/@style"/>
+          <strokeColor xmi:type="viewpoint:RGBValues" xmi:id="_U0Qf0WjPEeS1hIQTE469VA" red="39" green="76" blue="114"/>
+          <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_-_EVMmjOEeS1hIQTE469VA">
+            <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_-_EVM2jOEeS1hIQTE469VA"/>
+          </centerLabelStyle>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/basicfamily.design/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@edgeMappings[name='fatherEdge']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_-_E8QGjOEeS1hIQTE469VA" sourceNode="_jLuxIGjOEeS1hIQTE469VA" targetNode="_jLuKGWjOEeS1hIQTE469VA">
+        <target xmi:type="basicfamily:Man" href="example.basicfamily#//@members.5"/>
+        <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_-_E8QWjOEeS1hIQTE469VA" size="2">
+          <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/basicfamily.design/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@edgeMappings[name='fatherEdge']/@style"/>
+          <strokeColor xmi:type="viewpoint:RGBValues" xmi:id="_U0RG4GjPEeS1hIQTE469VA" red="39" green="76" blue="114"/>
+          <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_-_E8Q2jOEeS1hIQTE469VA">
+            <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_-_E8RGjOEeS1hIQTE469VA"/>
+          </centerLabelStyle>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/basicfamily.design/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@edgeMappings[name='fatherEdge']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_-_FjUGjOEeS1hIQTE469VA" sourceNode="_jLuxJGjOEeS1hIQTE469VA" targetNode="_jLuKFWjOEeS1hIQTE469VA">
+        <target xmi:type="basicfamily:Man" href="example.basicfamily#//@members.6"/>
+        <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_-_FjUWjOEeS1hIQTE469VA" size="2">
+          <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/basicfamily.design/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@edgeMappings[name='fatherEdge']/@style"/>
+          <strokeColor xmi:type="viewpoint:RGBValues" xmi:id="_U0RG4WjPEeS1hIQTE469VA" red="39" green="76" blue="114"/>
+          <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_-_FjU2jOEeS1hIQTE469VA">
+            <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_-_FjVGjOEeS1hIQTE469VA"/>
+          </centerLabelStyle>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/basicfamily.design/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@edgeMappings[name='fatherEdge']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_-_GKYGjOEeS1hIQTE469VA" sourceNode="_jLuxMGjOEeS1hIQTE469VA" targetNode="_jLuKEWjOEeS1hIQTE469VA">
+        <target xmi:type="basicfamily:Woman" href="example.basicfamily#//@members.3"/>
+        <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_-_JNsGjOEeS1hIQTE469VA" size="2">
+          <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/basicfamily.design/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@edgeMappings[name='fatherEdge']/@style"/>
+          <strokeColor xmi:type="viewpoint:RGBValues" xmi:id="_U0RG4mjPEeS1hIQTE469VA" red="39" green="76" blue="114"/>
+          <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_-_JNsmjOEeS1hIQTE469VA">
+            <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_-_JNs2jOEeS1hIQTE469VA"/>
+          </centerLabelStyle>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/basicfamily.design/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@edgeMappings[name='fatherEdge']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_-_J0wGjOEeS1hIQTE469VA" sourceNode="_jLuxNGjOEeS1hIQTE469VA" targetNode="_jLuKFWjOEeS1hIQTE469VA">
+        <target xmi:type="basicfamily:Woman" href="example.basicfamily#//@members.7"/>
+        <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_-_J0wWjOEeS1hIQTE469VA" size="2">
+          <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/basicfamily.design/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@edgeMappings[name='fatherEdge']/@style"/>
+          <strokeColor xmi:type="viewpoint:RGBValues" xmi:id="_U0Rt8GjPEeS1hIQTE469VA" red="39" green="76" blue="114"/>
+          <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_-_J0w2jOEeS1hIQTE469VA">
+            <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_-_J0xGjOEeS1hIQTE469VA"/>
+          </centerLabelStyle>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/basicfamily.design/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@edgeMappings[name='fatherEdge']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_-_Kb0GjOEeS1hIQTE469VA" sourceNode="_jLuxPGjOEeS1hIQTE469VA" targetNode="_jLuKFWjOEeS1hIQTE469VA">
+        <target xmi:type="basicfamily:Woman" href="example.basicfamily#//@members.9"/>
+        <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_-_Kb0WjOEeS1hIQTE469VA" size="2">
+          <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/basicfamily.design/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@edgeMappings[name='fatherEdge']/@style"/>
+          <strokeColor xmi:type="viewpoint:RGBValues" xmi:id="_U0Rt8WjPEeS1hIQTE469VA" red="39" green="76" blue="114"/>
+          <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_-_Kb02jOEeS1hIQTE469VA">
+            <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_-_Kb1GjOEeS1hIQTE469VA"/>
+          </centerLabelStyle>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/basicfamily.design/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@edgeMappings[name='fatherEdge']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_heL0wGjPEeS1hIQTE469VA" sourceNode="_jLuKFWjOEeS1hIQTE469VA" targetNode="_jLuxLGjOEeS1hIQTE469VA">
+        <target xmi:type="basicfamily:Man" href="example.basicfamily#//@members.2"/>
+        <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_heL0wWjPEeS1hIQTE469VA" size="2">
+          <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/basicfamily.design/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@edgeMappings[name='motherEdge']/@style"/>
+          <strokeColor xmi:type="viewpoint:RGBValues" xmi:id="_heL0wmjPEeS1hIQTE469VA" red="217" green="196" blue="215"/>
+          <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_heL0w2jPEeS1hIQTE469VA">
+            <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_heL0xGjPEeS1hIQTE469VA"/>
+          </centerLabelStyle>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/basicfamily.design/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@edgeMappings[name='motherEdge']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_heMb0GjPEeS1hIQTE469VA" sourceNode="_jLuxIGjOEeS1hIQTE469VA" targetNode="_jLuxOGjOEeS1hIQTE469VA">
+        <target xmi:type="basicfamily:Man" href="example.basicfamily#//@members.5"/>
+        <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_heMb0WjPEeS1hIQTE469VA" size="2">
+          <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/basicfamily.design/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@edgeMappings[name='motherEdge']/@style"/>
+          <strokeColor xmi:type="viewpoint:RGBValues" xmi:id="_heMb0mjPEeS1hIQTE469VA" red="217" green="196" blue="215"/>
+          <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_heMb02jPEeS1hIQTE469VA">
+            <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_heMb1GjPEeS1hIQTE469VA"/>
+          </centerLabelStyle>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/basicfamily.design/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@edgeMappings[name='motherEdge']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_heNC4GjPEeS1hIQTE469VA" sourceNode="_jLuxMGjOEeS1hIQTE469VA" targetNode="_jLuxLGjOEeS1hIQTE469VA">
+        <target xmi:type="basicfamily:Woman" href="example.basicfamily#//@members.3"/>
+        <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_heNC4WjPEeS1hIQTE469VA" size="2">
+          <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/basicfamily.design/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@edgeMappings[name='motherEdge']/@style"/>
+          <strokeColor xmi:type="viewpoint:RGBValues" xmi:id="_heNC4mjPEeS1hIQTE469VA" red="217" green="196" blue="215"/>
+          <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_heNC42jPEeS1hIQTE469VA">
+            <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_heNC5GjPEeS1hIQTE469VA"/>
+          </centerLabelStyle>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/basicfamily.design/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@edgeMappings[name='motherEdge']"/>
+      </ownedDiagramElements>
+      <description xmi:type="description_1:DiagramDescription" href="platform:/resource/basicfamily.design/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']"/>
+      <filterVariableHistory xmi:type="diagram:FilterVariableHistory" xmi:id="_jLuxQGjOEeS1hIQTE469VA"/>
+      <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/basicfamily.design/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer"/>
+      <target xmi:type="basicfamily:Family" href="example.basicfamily#/"/>
+    </ownedRepresentations>
+    <viewpoint xmi:type="description:Viewpoint" href="platform:/resource/basicfamily.design/basicfamily.odesign#//@ownedViewpoints[name='persons']"/>
+  </ownedViews>
+</viewpoint:DAnalysis>
