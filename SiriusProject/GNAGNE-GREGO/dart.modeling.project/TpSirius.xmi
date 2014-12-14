@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ASCII"?>
+<dart:Project xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dart="http://www.obeo.fr/dsl/2014/dart" xsi:schemaLocation="http://www.obeo.fr/dsl/2014/dart ../dart.project.design/model/dart.ecore" name="MiddlewareProject">
+  <packages name="DartAlma">
+    <assets xsi:type="dart:Class" name="Class1">
+      <fields name="NewField:Type"/>
+      <fields name="NewField:Type"/>
+    </assets>
+    <assets xsi:type="dart:Class" name="Class2" extends="//@packages.0/@assets.0">
+      <fields name="NewField:Type"/>
+      <fields name="NewField:Type"/>
+    </assets>
+  </packages>
+</dart:Project>
