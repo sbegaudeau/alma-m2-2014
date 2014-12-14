@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<description:Group xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:filter="http://www.eclipse.org/sirius/diagram/description/filter/1.1.0" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:tool="http://www.eclipse.org/sirius/diagram/description/tool/1.1.0" xmlns:tool_1="http://www.eclipse.org/sirius/description/tool/1.1.0" xmlns:validation="http://www.eclipse.org/sirius/description/validation/1.1.0" name="project" version="8.1.0">
+  <ownedViewpoints name="Diagram">
+    <ownedRepresentations xsi:type="description_1:DiagramDescription" name="DiagramRepresentation" label="DiagramRepresentation" domainClass="dart.Project">
+      <metamodel href="../model/dart.ecore#/"/>
+      <filters xsi:type="filter:CompositeFilterDescription" name="BorderedNodeFilter">
+        <filters xsi:type="filter:MappingFilter" mappings="//@ownedViewpoints[name='Diagram']/@ownedRepresentations[name='DiagramRepresentation']/@defaultLayer/@containerMappings[name='Component']/@borderedNodeMappings[name='Bordered']" semanticConditionExpression="[thisEObject/]"/>
+      </filters>
+      <validationSet>
+        <ownedRules xsi:type="validation:SemanticValidationRule" level="ERROR" message="The element has not name." targetClass="dart.Class">
+          <audits auditExpression="[name.oclIsUndefined()/]"/>
+        </ownedRules>
+      </validationSet>
+      <defaultLayer name="Default" label="Default Layer">
+        <containerMappings name="Component" detailDescriptions="//@ownedViewpoints[name='Diagram']/@ownedRepresentations[name='AdditionalDiagram']/@defaultLayer/@toolSections.0/@ownedTools[name='Representation']" semanticCandidatesExpression="[packages.assets/]" domainClass="dart.Component">
+          <borderedNodeMappings name="Bordered" domainClass="dart.Component">
+            <style xsi:type="style:DotDescription" resizeKind="NSEW">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            </style>
+          </borderedNodeMappings>
+          <style xsi:type="style:FlatContainerStyleDescription">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_gray']"/>
+          </style>
+        </containerMappings>
+        <containerMappings name="Class" labelDirectEdit="//@ownedViewpoints[name='Diagram']/@ownedRepresentations[name='DiagramRepresentation']/@additionalLayers[name='Additional%20layer']/@toolSections.2/@ownedTools[name='Label%20Edit']" semanticCandidatesExpression="[packages.assets/]" domainClass="dart.Class" childrenPresentation="List">
+          <subNodeMappings name="Variable" labelDirectEdit="//@ownedViewpoints[name='Diagram']/@ownedRepresentations[name='DiagramRepresentation']/@additionalLayers[name='Additional%20layer']/@toolSections.2/@ownedTools[name='Label%20Edit']" semanticCandidatesExpression="feature:fields" domainClass="dart.Variable">
+            <style xsi:type="style:SquareDescription" iconPath="/dart.project.design2/icons/field_public_obj.png" labelAlignment="LEFT" resizeKind="NSEW">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            </style>
+          </subNodeMappings>
+          <style xsi:type="style:FlatContainerStyleDescription" iconPath="/dart.project.design2/icons/class.png">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_gray']"/>
+          </style>
+        </containerMappings>
+      </defaultLayer>
+      <additionalLayers name="Additional layer">
+        <nodeMappings name="Html" semanticCandidatesExpression="[packages.assets/]" domainClass="dart.HTML">
+          <style xsi:type="style:WorkspaceImageDescription" sizeComputationExpression="-1" resizeKind="NSEW" workspacePath="/dart.project.design2/icons/file.jpeg">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="Stylecheet" label="Stylecheet" semanticCandidatesExpression="[packages.assets/]" domainClass="dart.Stylesheet">
+          <style xsi:type="style:WorkspaceImageDescription" sizeComputationExpression="-1" resizeKind="NSEW" workspacePath="/dart.project.design2/icons/file.jpeg">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </style>
+        </nodeMappings>
+        <edgeMappings name="Extends" label="Extends" sourceMapping="//@ownedViewpoints[name='Diagram']/@ownedRepresentations[name='DiagramRepresentation']/@defaultLayer/@containerMappings[name='Class']" targetMapping="//@ownedViewpoints[name='Diagram']/@ownedRepresentations[name='DiagramRepresentation']/@defaultLayer/@containerMappings[name='Class']" targetFinderExpression="[extends/]">
+          <style targetArrow="InputClosedArrow" sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="Implements" label="Implements" sourceMapping="//@ownedViewpoints[name='Diagram']/@ownedRepresentations[name='DiagramRepresentation']/@defaultLayer/@containerMappings[name='Class']" targetMapping="//@ownedViewpoints[name='Diagram']/@ownedRepresentations[name='DiagramRepresentation']/@defaultLayer/@containerMappings[name='Class']" targetFinderExpression="[implements/]">
+          <style lineStyle="dash" targetArrow="InputClosedArrow" sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <toolSections name="NodeMapping" label="Features">
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="VariableC" label="Variable" nodeMappings="//@ownedViewpoints[name='Diagram']/@ownedRepresentations[name='DiagramRepresentation']/@defaultLayer/@containerMappings[name='Class']/@subNodeMappings[name='Variable']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="dart.Variable" referenceName="fields">
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="NewField:Type"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+        </toolSections>
+        <toolSections name="EdgeMapping" label="Relationship">
+          <ownedTools xsi:type="tool:EdgeCreationDescription" name="ExtendsEdgeC" label="Extends" edgeMappings="//@ownedViewpoints[name='Diagram']/@ownedRepresentations[name='DiagramRepresentation']/@additionalLayers[name='Additional%20layer']/@edgeMappings[name='Extends']">
+            <sourceVariable name="source"/>
+            <targetVariable name="target"/>
+            <sourceViewVariable name="sourceView"/>
+            <targetViewVariable name="targetView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:source">
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="extends" valueExpression="[target/]"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:EdgeCreationDescription" name="ImplementsEdgeC" label="Implements" edgeMappings="//@ownedViewpoints[name='Diagram']/@ownedRepresentations[name='DiagramRepresentation']/@additionalLayers[name='Additional%20layer']/@edgeMappings[name='Implements']">
+            <sourceVariable name="source"/>
+            <targetVariable name="target"/>
+            <sourceViewVariable name="sourceView"/>
+            <targetViewVariable name="targetView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:source">
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="implements" valueExpression="[target/]"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+        </toolSections>
+        <toolSections name="EditLabel" label="Edit Label">
+          <ownedTools xsi:type="tool:DirectEditLabel" name="Label Edit">
+            <mask mask="{0}"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="var:arg0"/>
+            </initialOperation>
+          </ownedTools>
+        </toolSections>
+        <toolSections name="ContainerMapping" label="Elements">
+          <ownedTools xsi:type="tool:ContainerCreationDescription" name="ClassC" label="Class" containerMappings="//@ownedViewpoints[name='Diagram']/@ownedRepresentations[name='DiagramRepresentation']/@defaultLayer/@containerMappings[name='Class']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="[container/]">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="dart.Class" referenceName="packages.assets">
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="NewClass"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+        </toolSections>
+      </additionalLayers>
+    </ownedRepresentations>
+    <ownedRepresentations xsi:type="description_1:DiagramDescription" name="AdditionalDiagram" domainClass="dart.Project">
+      <metamodel href="../model/dart.ecore#/"/>
+      <defaultLayer name="Default">
+        <toolSections>
+          <ownedTools xsi:type="tool:DiagramNavigationDescription">
+            <containerViewVariable name="containerView"/>
+            <containerVariable name="container"/>
+            <representationNameVariable name="diagramName"/>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DiagramCreationDescription" name="Representation" diagramDescription="//@ownedViewpoints[name='Diagram']/@ownedRepresentations[name='DiagramRepresentation']">
+            <initialOperation/>
+            <containerViewVariable name="containerView"/>
+            <representationNameVariable name="diagramName"/>
+          </ownedTools>
+        </toolSections>
+      </defaultLayer>
+    </ownedRepresentations>
+  </ownedViewpoints>
+</description:Group>
