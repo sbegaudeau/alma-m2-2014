@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dart:Project xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dart="http://www.obeo.fr/dsl/2014/dart" name="">
+  <packages name="One" license="" dependencies="//@packages.1">
+    <assets xsi:type="dart:Class" name="entity">
+      <fields name="attribute"/>
+      <methods name="Function"/>
+    </assets>
+  </packages>
+  <packages name="Two"/>
+</dart:Project>
