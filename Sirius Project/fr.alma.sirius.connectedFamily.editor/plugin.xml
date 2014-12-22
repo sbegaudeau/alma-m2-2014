@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+-->
+
+<plugin>
+
+   <extension point="org.eclipse.ui.newWizards">
+      <!-- @generated connectedFamily -->
+      <category
+            id="org.eclipse.emf.ecore.Wizard.category.ID"
+            name="%_UI_Wizard_category"/>
+      <wizard
+            id="connectedFamily.presentation.ConnectedFamilyModelWizardID"
+            name="%_UI_ConnectedFamilyModelWizard_label"
+            class="connectedFamily.presentation.ConnectedFamilyModelWizard"
+            category="org.eclipse.emf.ecore.Wizard.category.ID"
+            icon="icons/full/obj16/ConnectedFamilyModelFile.gif">
+         <description>%_UI_ConnectedFamilyModelWizard_description</description>
+         <selection class="org.eclipse.core.resources.IResource"/>
+      </wizard>
+   </extension>
+
+   <extension point="org.eclipse.ui.editors">
+      <!-- @generated connectedFamily -->
+      <editor
+            id="connectedFamily.presentation.ConnectedFamilyEditorID"
+            name="%_UI_ConnectedFamilyEditor_label"
+            icon="icons/full/obj16/ConnectedFamilyModelFile.gif"
+            extensions="connectedfamily"
+            class="connectedFamily.presentation.ConnectedFamilyEditor"
+            contributorClass="connectedFamily.presentation.ConnectedFamilyActionBarContributor">
+      </editor>
+   </extension>
+
+</plugin>

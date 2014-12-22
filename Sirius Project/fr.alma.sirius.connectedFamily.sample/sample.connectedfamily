@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<connectedFamily:Country xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:connectedFamily="http://www.example.org/connectedFamily">
+  <cities name="La Rochelle">
+    <families name="Latimer">
+      <members xsi:type="connectedFamily:Woman" surname="Monique"/>
+      <members xsi:type="connectedFamily:Man" surname="Eric"/>
+      <members xsi:type="connectedFamily:Woman" surname="Vanessa"/>
+      <routers reference="D4E88745" superRouter="//@cities.0/@routers.0"/>
+    </families>
+    <families name="Malagigi">
+      <members xsi:type="connectedFamily:Man" surname="Cedric"/>
+      <members xsi:type="connectedFamily:Woman" surname="Celine"/>
+      <routers reference="C8DDG98" superRouter="//@cities.0/@routers.0"/>
+    </families>
+    <routers reference="M32F4" superRouter="//@routers.1" connectedRouters="//@cities.0/@families.0/@routers.0 //@cities.0/@families.1/@routers.0"/>
+  </cities>
+  <cities name="Nantes">
+    <families name="Daoust">
+      <members xsi:type="connectedFamily:Man" surname="Guillaume"/>
+      <members xsi:type="connectedFamily:Man" surname="Nicolas"/>
+      <members xsi:type="connectedFamily:Woman" surname="Cindy"/>
+      <routers reference="A91F02T" superRouter="//@cities.1/@routers.0"/>
+    </families>
+    <families name="Garceau">
+      <members xsi:type="connectedFamily:Woman" surname="Sarah"/>
+      <members xsi:type="connectedFamily:Man" surname="Thomas"/>
+      <routers reference="E785F96" superRouter="//@cities.1/@routers.0"/>
+    </families>
+    <families name="Desroches">
+      <members xsi:type="connectedFamily:Woman" surname="Magali"/>
+      <members xsi:type="connectedFamily:Woman" surname="Camille"/>
+      <routers reference="B65F54F" superRouter="//@cities.1/@routers.1"/>
+    </families>
+    <routers reference="M8745" superRouter="//@routers.1" connectedRouters="//@cities.1/@families.0/@routers.0 //@cities.1/@families.1/@routers.0"/>
+    <routers reference="M4FP5" connectedRouters="//@cities.1/@families.2/@routers.0"/>
+  </cities>
+  <cities name="Paris">
+    <families name="Lampadaire">
+      <members xsi:type="connectedFamily:Man" surname="Philippe"/>
+      <members xsi:type="connectedFamily:Woman" surname="Clementine"/>
+      <routers reference="F87F33Q" superRouter="//@cities.2/@routers.0"/>
+    </families>
+    <families name="Chrome">
+      <members xsi:type="connectedFamily:Man" surname="Tim"/>
+      <routers reference="G8EG6Q3"/>
+    </families>
+    <routers reference="M9854" superRouter="//@routers.0"/>
+  </cities>
+  <routers reference="WW231" siblings="//@routers.1"/>
+  <routers reference="WE521" siblings="//@routers.2"/>
+  <routers reference="WS302" siblings="//@routers.0"/>
+</connectedFamily:Country>

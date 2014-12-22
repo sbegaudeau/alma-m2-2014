@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<description:Group xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:description_2="http://www.eclipse.org/sirius/tree/description/1.0.0" xmlns:description_3="http://www.eclipse.org/sirius/table/description/1.1.0" xmlns:filter="http://www.eclipse.org/sirius/diagram/description/filter/1.1.0" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:tool="http://www.eclipse.org/sirius/diagram/description/tool/1.1.0" xmlns:tool_1="http://www.eclipse.org/sirius/description/tool/1.1.0" xmlns:validation="http://www.eclipse.org/sirius/description/validation/1.1.0" name="connectedFamily" version="8.1.0">
+  <ownedViewpoints name="defaultCFViewpoint" label="Defaut Connected Families Viewpoint" modelFileExtension="connectedfamily">
+    <ownedRepresentations xsi:type="description_1:DiagramDescription" name="defaultDiagramConnectedFamilies" label="Diagramme Connected Families" domainClass="connectedFamily.Country">
+      <filters xsi:type="filter:CompositeFilterDescription" name="allRouterFilter" label="Hide all routers">
+        <filters xsi:type="filter:MappingFilter" mappings="//@ownedViewpoints[name='defaultCFViewpoint']/@ownedRepresentations[name='defaultDiagramConnectedFamilies']/@defaultLayer/@containerMappings[name='cityContainer']/@subContainerMappings[name='familyContainer']/@borderedNodeMappings[name='localRouterNode']"/>
+        <filters xsi:type="filter:MappingFilter" mappings="//@ownedViewpoints[name='defaultCFViewpoint']/@ownedRepresentations[name='defaultDiagramConnectedFamilies']/@defaultLayer/@containerMappings[name='cityContainer']/@borderedNodeMappings[name='manRouterNode']"/>
+        <filters xsi:type="filter:MappingFilter" mappings="//@ownedViewpoints[name='defaultCFViewpoint']/@ownedRepresentations[name='defaultDiagramConnectedFamilies']/@defaultLayer/@nodeMappings[name='wanRouterNode']"/>
+      </filters>
+      <filters xsi:type="filter:CompositeFilterDescription" name="localRouterFilter" label="Hide local routers">
+        <filters xsi:type="filter:MappingFilter" mappings="//@ownedViewpoints[name='defaultCFViewpoint']/@ownedRepresentations[name='defaultDiagramConnectedFamilies']/@defaultLayer/@containerMappings[name='cityContainer']/@subContainerMappings[name='familyContainer']/@borderedNodeMappings[name='localRouterNode']"/>
+      </filters>
+      <filters xsi:type="filter:CompositeFilterDescription" name="connectedLocalRouterFilter" label="Hide all local connected routers">
+        <filters xsi:type="filter:MappingFilter" mappings="//@ownedViewpoints[name='defaultCFViewpoint']/@ownedRepresentations[name='defaultDiagramConnectedFamilies']/@defaultLayer/@containerMappings[name='cityContainer']/@subContainerMappings[name='familyContainer']/@borderedNodeMappings[name='localRouterNode']" semanticConditionExpression="[superRouter->oclIsInvalid()/]"/>
+      </filters>
+      <validationSet name="Name Ref Not Empty">
+        <ownedRules xsi:type="validation:SemanticValidationRule" level="WARNING" message="[name->isEmpty()/]" targetClass="connectedFamily.City"/>
+        <ownedRules xsi:type="validation:SemanticValidationRule" level="WARNING" message="[name->isEmpty()/]" targetClass="connectedFamily.Family"/>
+        <ownedRules xsi:type="validation:SemanticValidationRule" level="WARNING" message="[surname->isEmpty()/]" targetClass="connectedFamily.Person"/>
+        <ownedRules xsi:type="validation:SemanticValidationRule" level="WARNING" message="[reference->isEmpty()/]" targetClass="connectedFamily.Router"/>
+      </validationSet>
+      <defaultLayer name="defaultLayer" label="Default Layer">
+        <nodeMappings name="wanRouterNode" label="Wide Router Node" deletionDescription="//@ownedViewpoints[name='defaultCFViewpoint']/@ownedRepresentations[name='defaultDiagramConnectedFamilies']/@defaultLayer/@toolSections.0/@ownedTools[name='removeElement']" labelDirectEdit="//@ownedViewpoints[name='defaultCFViewpoint']/@ownedRepresentations[name='defaultDiagramConnectedFamilies']/@defaultLayer/@toolSections.0/@ownedTools[name='referenceEdit']" semanticCandidatesExpression="[routers/]" domainClass="connectedFamily.WideRouter">
+          <style xsi:type="style:LozengeNodeDescription" labelSize="9" labelFormat="bold_italic" showIcon="false" labelExpression="[reference/]" iconPath="/fr.alma.sirius.connectedFamily.design/res/server.png" labelPosition="node" resizeKind="NSEW">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+          </style>
+        </nodeMappings>
+        <edgeMappings name="localEdge" label="Local Edge" sourceMapping="//@ownedViewpoints[name='defaultCFViewpoint']/@ownedRepresentations[name='defaultDiagramConnectedFamilies']/@defaultLayer/@containerMappings[name='cityContainer']/@subContainerMappings[name='familyContainer']/@borderedNodeMappings[name='localRouterNode']" targetMapping="//@ownedViewpoints[name='defaultCFViewpoint']/@ownedRepresentations[name='defaultDiagramConnectedFamilies']/@defaultLayer/@containerMappings[name='cityContainer']/@borderedNodeMappings[name='manRouterNode']" targetFinderExpression="[superRouter/]" reconnections="//@ownedViewpoints[name='defaultCFViewpoint']/@ownedRepresentations[name='defaultDiagramConnectedFamilies']/@defaultLayer/@toolSections.0/@ownedTools[name='reconnectEdge']">
+          <style targetArrow="NoDecoration" sizeComputationExpression="2" routingStyle="manhattan" foldingStyle="TARGET" endsCentering="Both">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="metropolitanEdge" label="Metropolitan Edge" sourceMapping="//@ownedViewpoints[name='defaultCFViewpoint']/@ownedRepresentations[name='defaultDiagramConnectedFamilies']/@defaultLayer/@containerMappings[name='cityContainer']/@borderedNodeMappings[name='manRouterNode']" targetMapping="//@ownedViewpoints[name='defaultCFViewpoint']/@ownedRepresentations[name='defaultDiagramConnectedFamilies']/@defaultLayer/@nodeMappings[name='wanRouterNode']" targetFinderExpression="[superRouter/]" reconnections="//@ownedViewpoints[name='defaultCFViewpoint']/@ownedRepresentations[name='defaultDiagramConnectedFamilies']/@defaultLayer/@toolSections.0/@ownedTools[name='reconnectEdge']">
+          <style targetArrow="NoDecoration" sizeComputationExpression="3" foldingStyle="TARGET" endsCentering="Both">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='dark_gray']"/>
+            <centerLabelStyleDescription>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="wideEdge" label="Wide Edge" sourceMapping="//@ownedViewpoints[name='defaultCFViewpoint']/@ownedRepresentations[name='defaultDiagramConnectedFamilies']/@defaultLayer/@nodeMappings[name='wanRouterNode']" targetMapping="//@ownedViewpoints[name='defaultCFViewpoint']/@ownedRepresentations[name='defaultDiagramConnectedFamilies']/@defaultLayer/@nodeMappings[name='wanRouterNode']" targetFinderExpression="[siblings/]">
+          <style targetArrow="NoDecoration" sizeComputationExpression="5" endsCentering="Both">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <centerLabelStyleDescription>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <containerMappings name="cityContainer" label="City Container" deletionDescription="//@ownedViewpoints[name='defaultCFViewpoint']/@ownedRepresentations[name='defaultDiagramConnectedFamilies']/@defaultLayer/@toolSections.0/@ownedTools[name='removeElement']" labelDirectEdit="//@ownedViewpoints[name='defaultCFViewpoint']/@ownedRepresentations[name='defaultDiagramConnectedFamilies']/@defaultLayer/@toolSections.0/@ownedTools[name='nameEdit']" semanticCandidatesExpression="[cities/]" domainClass="connectedFamily.City">
+          <borderedNodeMappings name="manRouterNode" label="Metropolitan Router Node" deletionDescription="//@ownedViewpoints[name='defaultCFViewpoint']/@ownedRepresentations[name='defaultDiagramConnectedFamilies']/@defaultLayer/@toolSections.0/@ownedTools[name='removeElement']" labelDirectEdit="//@ownedViewpoints[name='defaultCFViewpoint']/@ownedRepresentations[name='defaultDiagramConnectedFamilies']/@defaultLayer/@toolSections.0/@ownedTools[name='referenceEdit']" semanticCandidatesExpression="[routers/]" domainClass="connectedFamily.MetropolitanRouter">
+            <style xsi:type="style:LozengeNodeDescription" labelFormat="bold_italic" showIcon="false" labelExpression="[reference/]" resizeKind="NSEW">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='dark_orange']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_orange']"/>
+            </style>
+            <conditionnalStyles predicateExpression="[superRouter->isEmpty()/]">
+              <style xsi:type="style:LozengeNodeDescription" labelFormat="bold_italic" showIcon="false" labelExpression="[reference/]" resizeKind="NSEW">
+                <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='dark_red']"/>
+                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='red']"/>
+              </style>
+            </conditionnalStyles>
+          </borderedNodeMappings>
+          <subContainerMappings name="familyContainer" label="Family Container" detailDescriptions="//@ownedViewpoints[name='defaultCFViewpoint']/@ownedRepresentations[name='editionTableNavigationConnectedFamilies']/@ownedRepresentationCreationDescriptions[name='tableCreation']" deletionDescription="//@ownedViewpoints[name='defaultCFViewpoint']/@ownedRepresentations[name='defaultDiagramConnectedFamilies']/@defaultLayer/@toolSections.0/@ownedTools[name='removeElement']" labelDirectEdit="//@ownedViewpoints[name='defaultCFViewpoint']/@ownedRepresentations[name='defaultDiagramConnectedFamilies']/@defaultLayer/@toolSections.0/@ownedTools[name='nameEdit']" semanticCandidatesExpression="[families/]" domainClass="connectedFamily.Family" childrenPresentation="List">
+            <borderedNodeMappings name="localRouterNode" label="Local Router Node" deletionDescription="//@ownedViewpoints[name='defaultCFViewpoint']/@ownedRepresentations[name='defaultDiagramConnectedFamilies']/@defaultLayer/@toolSections.0/@ownedTools[name='removeElement']" labelDirectEdit="//@ownedViewpoints[name='defaultCFViewpoint']/@ownedRepresentations[name='defaultDiagramConnectedFamilies']/@defaultLayer/@toolSections.0/@ownedTools[name='referenceEdit']" semanticCandidatesExpression="[routers/]" domainClass="connectedFamily.LocalRouter">
+              <style xsi:type="style:LozengeNodeDescription" showIcon="false" labelExpression="[reference/]" resizeKind="NSEW">
+                <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='dark_yellow']"/>
+                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_yellow']"/>
+              </style>
+              <conditionnalStyles predicateExpression="[superRouter->isEmpty()/]">
+                <style xsi:type="style:LozengeNodeDescription" showIcon="false" labelExpression="[reference/]" resizeKind="NSEW">
+                  <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='dark_red']"/>
+                  <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                  <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='red']"/>
+                </style>
+              </conditionnalStyles>
+              <conditionnalStyles predicateExpression="[superRouter.superRouter->isEmpty()/]">
+                <style xsi:type="style:LozengeNodeDescription" showIcon="false" labelExpression="[reference/]" resizeKind="NSEW">
+                  <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='dark_red']"/>
+                  <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                  <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='red']"/>
+                </style>
+              </conditionnalStyles>
+            </borderedNodeMappings>
+            <subNodeMappings name="manNode" label="Man Node" deletionDescription="//@ownedViewpoints[name='defaultCFViewpoint']/@ownedRepresentations[name='defaultDiagramConnectedFamilies']/@defaultLayer/@toolSections.0/@ownedTools[name='removeElement']" labelDirectEdit="//@ownedViewpoints[name='defaultCFViewpoint']/@ownedRepresentations[name='defaultDiagramConnectedFamilies']/@defaultLayer/@toolSections.0/@ownedTools[name='surnameEdit']" semanticCandidatesExpression="[members/]" domainClass="connectedFamily.Man">
+              <style xsi:type="style:SquareDescription" showIcon="false" labelExpression="[surname/]" iconPath="/fr.alma.sirius.connectedFamily.design/res/man.png" labelAlignment="LEFT" resizeKind="NSEW">
+                <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+              </style>
+            </subNodeMappings>
+            <subNodeMappings name="womanNode" label="Woman Node" deletionDescription="//@ownedViewpoints[name='defaultCFViewpoint']/@ownedRepresentations[name='defaultDiagramConnectedFamilies']/@defaultLayer/@toolSections.0/@ownedTools[name='removeElement']" labelDirectEdit="//@ownedViewpoints[name='defaultCFViewpoint']/@ownedRepresentations[name='defaultDiagramConnectedFamilies']/@defaultLayer/@toolSections.0/@ownedTools[name='surnameEdit']" semanticCandidatesExpression="[members/]" domainClass="connectedFamily.Woman">
+              <style xsi:type="style:SquareDescription" showIcon="false" labelExpression="[surname/]" iconPath="/fr.alma.sirius.connectedFamily.design/res/woman.png" labelAlignment="LEFT" resizeKind="NSEW">
+                <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+              </style>
+            </subNodeMappings>
+            <style xsi:type="style:FlatContainerStyleDescription" labelFormat="bold" showIcon="false" labelExpression="[name/]">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_green']"/>
+              <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_green']"/>
+            </style>
+          </subContainerMappings>
+          <style xsi:type="style:FlatContainerStyleDescription" arcWidth="10" arcHeight="10" labelSize="10" labelFormat="bold" showIcon="false" labelExpression="[name.toUpper()/]" roundedCorner="true">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+          </style>
+        </containerMappings>
+        <toolSections name="sectionDiagram" label="Diagram">
+          <ownedTools xsi:type="tool:ContainerCreationDescription" name="newCity" label="City" containerMappings="//@ownedViewpoints[name='defaultCFViewpoint']/@ownedRepresentations[name='defaultDiagramConnectedFamilies']/@defaultLayer/@containerMappings[name='cityContainer']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="[container/]">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="connectedFamily.City" referenceName="cities">
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="['undefined'/]"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:ContainerCreationDescription" name="newFamily" label="Family" containerMappings="//@ownedViewpoints[name='defaultCFViewpoint']/@ownedRepresentations[name='defaultDiagramConnectedFamilies']/@defaultLayer/@containerMappings[name='cityContainer']/@subContainerMappings[name='familyContainer']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="[container/]">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="connectedFamily.Family" referenceName="families">
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="['undefined'/]"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="newMan" label="Man" nodeMappings="//@ownedViewpoints[name='defaultCFViewpoint']/@ownedRepresentations[name='defaultDiagramConnectedFamilies']/@defaultLayer/@containerMappings[name='cityContainer']/@subContainerMappings[name='familyContainer']/@subNodeMappings[name='manNode']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="[container/]">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="connectedFamily.Man" referenceName="members">
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="surname" valueExpression="['undefined'/]"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="newWoman" label="Woman" nodeMappings="//@ownedViewpoints[name='defaultCFViewpoint']/@ownedRepresentations[name='defaultDiagramConnectedFamilies']/@defaultLayer/@containerMappings[name='cityContainer']/@subContainerMappings[name='familyContainer']/@subNodeMappings[name='womanNode']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="[container/]">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="connectedFamily.Woman" referenceName="members">
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="surname" valueExpression="['undefined'/]"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="newLocalRouter" label="Local Router" nodeMappings="//@ownedViewpoints[name='defaultCFViewpoint']/@ownedRepresentations[name='defaultDiagramConnectedFamilies']/@defaultLayer/@containerMappings[name='cityContainer']/@subContainerMappings[name='familyContainer']/@borderedNodeMappings[name='localRouterNode']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="[container/]">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="connectedFamily.LocalRouter" referenceName="routers">
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="reference" valueExpression="['undefined'/]"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="newMetropolitanRouter" label="Metropolitan Router" nodeMappings="//@ownedViewpoints[name='defaultCFViewpoint']/@ownedRepresentations[name='defaultDiagramConnectedFamilies']/@defaultLayer/@containerMappings[name='cityContainer']/@borderedNodeMappings[name='manRouterNode']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="[container/]">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="connectedFamily.MetropolitanRouter" referenceName="routers">
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="reference" valueExpression="['undefined'/]"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="newWideRouter" label="Wide Router" nodeMappings="//@ownedViewpoints[name='defaultCFViewpoint']/@ownedRepresentations[name='defaultDiagramConnectedFamilies']/@defaultLayer/@nodeMappings[name='wanRouterNode']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="[container/]">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="connectedFamily.WideRouter" referenceName="routers">
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="reference" valueExpression="['undefined'/]"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:EdgeCreationDescription" name="newLocalEdge" label="Local Edge" edgeMappings="//@ownedViewpoints[name='defaultCFViewpoint']/@ownedRepresentations[name='defaultDiagramConnectedFamilies']/@defaultLayer/@edgeMappings[name='localEdge'] //@ownedViewpoints[name='defaultCFViewpoint']/@ownedRepresentations[name='defaultDiagramConnectedFamilies']/@defaultLayer/@edgeMappings[name='metropolitanEdge']">
+            <sourceVariable name="source"/>
+            <targetVariable name="target"/>
+            <sourceViewVariable name="sourceView"/>
+            <targetViewVariable name="targetView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="[source/]">
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="superRouter" valueExpression="[target/]"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:EdgeCreationDescription" name="newMetropolitanEdge" label="Metropolitan Edge" edgeMappings="//@ownedViewpoints[name='defaultCFViewpoint']/@ownedRepresentations[name='defaultDiagramConnectedFamilies']/@defaultLayer/@edgeMappings[name='metropolitanEdge']">
+            <sourceVariable name="source"/>
+            <targetVariable name="target"/>
+            <sourceViewVariable name="sourceView"/>
+            <targetViewVariable name="targetView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="[source/]">
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="superRouter" valueExpression="[target/]"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:EdgeCreationDescription" name="newWideEdge" label="Wide Edge" edgeMappings="//@ownedViewpoints[name='defaultCFViewpoint']/@ownedRepresentations[name='defaultDiagramConnectedFamilies']/@defaultLayer/@edgeMappings[name='wideEdge']">
+            <sourceVariable name="source"/>
+            <targetVariable name="target"/>
+            <sourceViewVariable name="sourceView"/>
+            <targetViewVariable name="targetView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="[source/]">
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="siblings" valueExpression="[self.oclAsType(WideRouter).siblings->asOrderedSet()->append(target)/]"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DirectEditLabel" name="nameEdit" label="Name Edit">
+            <mask mask="{0}"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="[self/]">
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="[arg0/]"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DirectEditLabel" name="surnameEdit" label="Surname Edit">
+            <mask mask="{0}"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="[self/]">
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="surname" valueExpression="[arg0/]"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DirectEditLabel" name="referenceEdit" label="Reference Edit">
+            <mask mask="{0}"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="[self/]">
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="reference" valueExpression="[arg0/]"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:ReconnectEdgeDescription" name="reconnectEdge" label="Reconnect Edge">
+            <source name="source"/>
+            <target name="target"/>
+            <sourceView name="sourceView"/>
+            <targetView name="targetView"/>
+            <element name="element"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="[source/]">
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="superRouter" valueExpression="[target/]"/>
+              </firstModelOperations>
+            </initialOperation>
+            <edgeView name="edgeView"/>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DeleteElementDescription" name="removeElement" label="Remove Node and Container">
+            <element name="element"/>
+            <elementView name="elementView"/>
+            <containerView name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="[element/]">
+                <subModelOperations xsi:type="tool_1:RemoveElement"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+        </toolSections>
+      </defaultLayer>
+      <additionalLayers name="nodeLayer" label="Node Layer">
+        <nodeMappings name="cityNode_2" label="City Node" navigationDescriptions="//@ownedViewpoints[name='defaultCFViewpoint']/@ownedRepresentations[name='editionTableNavigationConnectedFamilies']/@ownedRepresentationNavigationDescriptions[name='tableNavigation']" semanticCandidatesExpression="[cities/]" domainClass="connectedFamily.MetropolitanRouter">
+          <style xsi:type="style:SquareDescription" labelExpression="[reference/]" iconPath="/fr.alma.sirius.connectedFamily.design/res/server.png" resizeKind="NSEW">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_blue']"/>
+          </style>
+        </nodeMappings>
+      </additionalLayers>
+    </ownedRepresentations>
+    <ownedRepresentations xsi:type="description_2:TreeDescription" name="treebasedConnectedFamilies" label="Tree based Connected Families" domainClass="connectedFamily.Country">
+      <subItemMappings name="treeCity" label="Tree City" domainClass="connectedFamily.City" semanticCandidatesExpression="[cities/]">
+        <defaultStyle labelSize="10" labelFormat="bold" labelExpression="[name.toUpper()/]">
+          <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+        </defaultStyle>
+        <subItemMappings name="treeFamily" label="Tree Family" domainClass="connectedFamily.Family" semanticCandidatesExpression="[families/]">
+          <defaultStyle labelSize="9" labelFormat="bold" labelExpression="[name/]">
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+          </defaultStyle>
+          <subItemMappings name="treePerson" label="Tree Person" domainClass="connectedFamily.Person" semanticCandidatesExpression="[members/]">
+            <defaultStyle labelExpression="[surname/]">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            </defaultStyle>
+          </subItemMappings>
+          <subItemMappings name="treeLocalRouter" label="Tree Local Router" domainClass="connectedFamily.LocalRouter" semanticCandidatesExpression="[routers/]">
+            <defaultStyle labelFormat="italic" labelExpression="['Local router : ' + reference + ' (' + if superRouter->isEmpty() then 'Not connected' else 'Connected to ' + superRouter.reference endif + ')'/]">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            </defaultStyle>
+          </subItemMappings>
+        </subItemMappings>
+        <subItemMappings name="treeMetropolitanRouter" label="Tree Metropolitan Router" domainClass="connectedFamily.MetropolitanRouter" semanticCandidatesExpression="[routers/]">
+          <defaultStyle labelFormat="italic" labelExpression="['Metropolitan router : ' + reference + ' (' + if superRouter->isEmpty() then 'Not connected' else 'Connected to ' + superRouter.reference endif + ')'/]">
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+          </defaultStyle>
+        </subItemMappings>
+      </subItemMappings>
+      <subItemMappings name="treeWideRouter" label="Tree Wide Router" domainClass="connectedFamily.WideRouter" semanticCandidatesExpression="[routers/]">
+        <defaultStyle labelFormat="italic" labelExpression="['Wide router : ' + reference/]">
+          <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+        </defaultStyle>
+      </subItemMappings>
+    </ownedRepresentations>
+    <ownedRepresentations xsi:type="description_3:EditionTableDescription" name="editionTableNavigationConnectedFamilies" label="Navigation All Families" domainClass="connectedFamily.Family">
+      <ownedRepresentationCreationDescriptions xsi:type="description_3:TableCreationDescription" name="tableCreation" label="Table Creation" tableDescription="//@ownedViewpoints[name='defaultCFViewpoint']/@ownedRepresentations[name='editionTableNavigationConnectedFamilies']">
+        <initialOperation>
+          <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="[containerView/]"/>
+        </initialOperation>
+        <containerViewVariable name="containerView"/>
+        <representationNameVariable name="tableName"/>
+      </ownedRepresentationCreationDescriptions>
+      <ownedRepresentationNavigationDescriptions xsi:type="description_3:TableNavigationDescription" name="tableNavigation" label="Table Navigation" tableDescription="//@ownedViewpoints[name='defaultCFViewpoint']/@ownedRepresentations[name='editionTableNavigationConnectedFamilies']">
+        <containerViewVariable name="containerView"/>
+        <containerVariable name="container"/>
+        <representationNameVariable name="tableName"/>
+      </ownedRepresentationNavigationDescriptions>
+      <ownedLineMappings name="personTableMembersLine" label="Person Line" domainClass="connectedFamily.Family"/>
+      <ownedColumnMappings name="personName" label="Person Name" headerLabelExpression="name" featureName="name" labelExpression="[name/]"/>
+    </ownedRepresentations>
+  </ownedViewpoints>
+</description:Group>
